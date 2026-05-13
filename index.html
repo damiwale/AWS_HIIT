@@ -1,0 +1,158 @@
+# Static Website Page (HTML + CSS)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigerian Youth Tech Hub</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #008751;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #006b40;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #008751;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: #008751;
+        }
+
+        footer {
+            background-color: #006b40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nigerian Youth Tech Hub</h1>
+        <p>Building Future Tech Leaders</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to Our Website</h1>
+        <p>Empowering hardworking Nigerian youths with technology skills.</p>
+        <a href="#" class="btn">Get Started</a>
+    </section>
+
+    <section class="services">
+        <div class="card">
+            <h3>Web Development</h3>
+            <p>Learn how to build modern and responsive websites.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cloud Computing</h3>
+            <p>Gain practical AWS and cloud infrastructure skills.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cyber Security</h3>
+            <p>Protect systems and networks from cyber threats.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nigerian Youth Tech Hub. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
+
+
+
+
+
+
